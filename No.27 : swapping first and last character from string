@@ -1,0 +1,5 @@
+name = str(input("Enter name: "))
+first_char = name[0]
+last_char = name[-1]
+str1 = last_char + name[1:-1] + first_char
+print("Swapping: ", str1)
