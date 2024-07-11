@@ -1,0 +1,9 @@
+name = "python"
+n = int(input("Enter The nth Position you want to remove the character: "))
+first_part = name[:n-1]
+last_part = name[n:]
+print(first_part + last_part)
+
+>>Output
+>>Enter The nth Position you want to remove the character: 5
+>>pythn
